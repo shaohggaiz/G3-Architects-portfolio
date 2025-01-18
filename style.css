@@ -84,6 +84,7 @@ main {
     align-items: center;
     gap: 50px;
     margin-top: 100px;
+    margin-bottom: 120px;
 }
 .team-img-container {
     display: grid;
@@ -102,6 +103,57 @@ main {
 .features-description {
     padding: 30px 0;
 }
+/* features-section-title */
+
+.featuers-end {
+    display:flex;
+    gap: 80px;
+    position: relative;
+}
+#features-section-title {
+    font-size: 2.3rem;
+    margin: 15px;
+    padding: 20px;
+    border-left: 4px solid #FF900E;
+}
+.features-section-description {
+    margin-bottom: 30px;
+}
+.dexktop {
+    font-size: 1.2rem;
+    color: #1a1414ce;
+}
+.cards-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 25px;
+}
+.dexktop-description {
+    line-height: 1.6;
+}
+.card-item {
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 4px 5px 40px rgba(0, 0, 0, 0.1);
+}
+.images {
+    width: 100%;
+}
+
+.featuers-end img {
+    width: 100%;
+}
+.position-set {
+    position: absolute;
+    bottom: 120px;
+    right: 380px;
+    padding: 30px;
+
+}
+.spna-card-one {
+    font-size: 2rem;
+}
 /* facts-container */
 .facts-container {
     margin-top: 60px;
@@ -118,6 +170,7 @@ main {
     margin: auto;
     border-radius: 8px;
 }
+
 .fact-number {
     font-size: 2rem;
     color: #424242;
@@ -140,13 +193,28 @@ main {
     text-align: center;
 }
 .sponsor-companies {
+    margin-top: 100px;
+    margin-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
 .sponsor-companies img {
+    width: 140px;
     filter: grayscale(100%);
 }
+.sponsor-title {
+    margin-top: 90px;
+    padding: 15px;
+}
 
+/* footer */
+
+footer {
+    text-align: center;
+    margin: 130px;
+    padding: 25px;
+    background-color: rgba(243, 208, 104, 0.233);
+}
 /* responsitve media query */
 
 @media screen and (max-width: 578px) {
