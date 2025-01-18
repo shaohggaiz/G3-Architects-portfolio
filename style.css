@@ -145,10 +145,13 @@ main {
     width: 100%;
 }
 .position-set {
-    position: absolute;
+    /* position: absolute;
     bottom: 120px;
-    right: 380px;
+    right: 380px; */
+    margin-top: -100px;
+    margin-left: -70px;
     padding: 30px;
+    font-weight: 700;
 
 }
 .spna-card-one {
@@ -255,16 +258,22 @@ footer {
     }
     /* facts-container */
     .facts-container {
+        margin: auto;
        justify-content: center;
        gap: 20px;
         grid-template-columns: repeat(1, 1fr);
     }
     .sponsor-companies {
-        margin: 20px;
+        margin: 20px auto;
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px;
         justify-items: center;
-        border: 4px solid red;
+    }
+    .featuers-end {
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
     }
 }
